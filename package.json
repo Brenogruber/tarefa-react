@@ -1,0 +1,11 @@
+{
+  "name": "tarefas-react-workspace",
+  "private": true,
+  "workspaces": [
+    "tarefas-react"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace tarefas-react",
+    "build": "npm run build --workspace tarefas-react"
+  }
+}
